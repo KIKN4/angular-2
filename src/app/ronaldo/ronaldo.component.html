@@ -1,0 +1,8 @@
+<div [class]="className" [style.background-image]="ronaldo.background">
+  <img [src]="ronaldo.imgData.src" [alt]="ronaldo.imgData.alt" />
+  <div>
+    <h2>{{ ronaldo.title }}</h2>
+    <p>{{ ronaldo.description }}</p>
+    <button (click)="onChange()">change background</button>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div [class]="className" [style.background-image]="kvara.background">
+  <img [src]="kvara.imgData.src" [alt]="kvara.imgData.alt" />
+  <div>
+    <h2>{{ kvara.title }}</h2>
+    <p>{{ kvara.description }}</p>
+    <button (click)="onChange()">change Background</button>
+  </div>
+</div>

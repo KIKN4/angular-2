@@ -1,0 +1,8 @@
+<div [class]="className" [style.background-image]="messi.background">
+  <img [src]="messi.imgData.src" [alt]="messi.imgData.alt" />
+  <div>
+    <h2>{{ messi.title }}</h2>
+    <p>{{ messi.description }}</p>
+    <button (click)="onChange()">change background</button>
+  </div>
+</div>

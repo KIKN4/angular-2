@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  max-width: 250px;
+  min-width: 300px;
+  min-height: 400px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  box-shadow: none;
+}
+
+.card img {
+  max-width: 200px;
+  border-bottom: 1px solid rgb(115, 112, 112);
+  max-height: 150px;
+}
+
+div {
+  background-position: center;
+}
+
+app-root {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}

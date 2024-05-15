@@ -1,0 +1,16 @@
+<app-card
+  [messi]="cards[0]"
+  (changeBackground)="messiBackground($event)"
+></app-card>
+<app-ronaldo
+  [ronaldo]="cards[1]"
+  (changeBackground)="ronaldoBackground($event)"
+></app-ronaldo>
+<app-kvara
+  [kvara]="cards[2]"
+  (changeBackground)="kvaraBackground($event)"
+></app-kvara>
+<app-theme-switch
+  (themeChange)="onThemeChanger($event)"
+  (themeReturnChange)="onThemeReturner($event)"
+></app-theme-switch>
